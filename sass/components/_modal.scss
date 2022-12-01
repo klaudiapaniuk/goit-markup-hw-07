@@ -1,0 +1,248 @@
+.modal {
+	position: absolute;
+	display: flex;
+	height: 581px;
+	background: $color-ffffff;
+	box-shadow: $box-shadow-people-cards-and_modal;
+	border-radius: 4px;
+	justify-content: flex-end;
+	top: 50%;
+	left: 50%;
+	transform: $transform-translate-50-50;
+	padding: 8px;
+}
+
+.modal__btn {
+	cursor: pointer;
+	position: absolute;
+	display: flex;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: $color-ffffff;
+	border: 1px solid $color-rgba-0-0-0-0_1;
+}
+
+.modal__close-icon-btn {
+	margin-top: 5px;
+	margin-left: -1px;
+}
+
+.modal__form {
+	margin-top: 32px;
+	margin-bottom: 32px;
+	margin-left: 32px;
+	margin-right: 32px;
+}
+
+.modal__form-title {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.1;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: $color-212121;
+	padding-bottom: 12px;
+}
+
+.modal__fieldset-small {
+	display: flex;
+	position: relative;
+	align-items: center;
+
+	width: 448px;
+	height: 40px;
+
+	border: 1px solid $color-rgba-33-33-33-0_2;
+	border-radius: 4px;
+
+	outline: 0;
+
+	margin-bottom: 28px;
+	padding-top: 11px;
+	padding-left: 12px;
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.2;
+	letter-spacing: 0.01em;
+	color: $color-rgba-117-117-117-0_5;
+}
+
+.modal__fieldset-big {
+	display: flex;
+	position: relative;
+	align-items: center;
+
+	height: 120px;
+
+	border: 1px solid $color-rgba-33-33-33-0_2;
+	border-radius: 4px;
+
+	outline: 0;
+	margin-bottom: 20px;
+	margin-right: 0px;
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.2;
+	letter-spacing: 0.01em;
+
+	color: $color-rgba-117-117-117-0_5;
+}
+
+.modal__input-small {
+	width: 448px;
+	height: 40px;
+
+	outline: 0;
+	border: none;
+	background-color: transparent;
+}
+
+.modal__input-big {
+	position: relative;
+	width: 448px;
+	height: 120px;
+
+	outline: 0;
+	border: none;
+	background-color: transparent;
+}
+
+.modal__label {
+	margin-bottom: 20px;
+	margin-left: -10px;
+}
+
+.modal__form .modal__icons {
+	width: 18px;
+	height: 18px;
+	color: $color-000000;
+}
+
+.modal__form .modal__label {
+	position: absolute;
+	top: -18px;
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.2;
+	letter-spacing: 0.01em;
+	color: $color-757575;
+}
+
+.modal__input-big-comment {
+	position: absolute;
+	top: -44px;
+	left: 16px;
+}
+
+.modal__fieldset-small:has(input:focus) {
+	border-color: $color-2196f3;
+	transition: $transition-250ms-cubic-bezier-0_4-0-0_2-1;
+}
+
+.modal__fieldset-small:has(input:focus) .modal__icons {
+	border-color: $color-2196f3;
+	transition: $transition-250ms-cubic-bezier-0_4-0-0_2-1;
+}
+
+.modal__fieldset-big:has(input:focus) {
+	border-color: $color-2196f3;
+	transition: $transition-250ms-cubic-bezier-0_4-0-0_2-1;
+}
+
+.modal__fieldset-small:has(input:hover) {
+	border-color: $color-2196f3;
+	transition: $transition-250ms-cubic-bezier-0_4-0-0_2-1;
+}
+
+.modal__fieldset-small:has(input:hover) .modal__icons {
+	border-color: $color-2196f3;
+	transition: $transition-250ms-cubic-bezier-0_4-0-0_2-1;
+}
+
+.modal__fieldset-big:has(input:hover) {
+	border-color: $color-2196f3;
+	transition: $transition-250ms-cubic-bezier-0_4-0-0_2-1;
+}
+
+.modal__legal-checkbox {
+	position: relative;
+	cursor: pointer;
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.7;
+
+	letter-spacing: 0.03em;
+
+	color: $color-757575;
+}
+
+.modal__legal-checkbox--policy {
+	appearance: none;
+	opacity: 0;
+}
+
+.modal__legal-checkbox--text {
+	margin-left: 8px;
+	position: relative;
+	display: inline-block;
+	top: -2px;
+}
+
+.modal__legal-checkbox--regulations {
+	font-size: 14px;
+	line-height: 1.7px;
+	letter-spacing: 0.03em;
+	color: $color-2196f3;
+	text-decoration: underline;
+}
+
+.modal__legal-checkbox--policy:checked + .modal__legal-checkbox--checkmark {
+	background: $color-2196f3;
+	border: 1px solid $color-000000;
+	border-radius: 2px;
+}
+
+.modal__legal-checkbox--checkmark {
+	width: 16px;
+	height: 15px;
+	fill: $color-ffffff;
+	border: 1px solid $color-000000;
+	border-radius: 2px;
+	margin-left: 13px;
+}
+
+.modal__submit-button {
+	width: 200px;
+	height: 50px;
+	background: $color-2196f3;
+	border-radius: 4px;
+	border: none;
+	margin-left: 156px;
+	margin-top: 30px;
+	color: $color-ffffff;
+	cursor: pointer;
+
+	&:hover {
+		box-shadow: $box-shadow-newlsetter__btn;
+		transition: outline-color $transition-250ms-cubic-bezier-0_4-0-0_2-1;
+	}
+	&:focus {
+		box-shadow: $box-shadow-newlsetter__btn;
+		transition: outline-color $transition-250ms-cubic-bezier-0_4-0-0_2-1;
+	}
+}

@@ -1,0 +1,24 @@
+.photo {
+	background-color: $color-2f303a;
+}
+
+.photo__bg {
+	width: 1600px;
+	margin: auto;
+	background-size: cover;
+
+	background-image: $bg-image-linear-gradient-main,
+		url("../images/indexbackground.jpg");
+}
+
+.photo__text {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.4em;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: $color-ffffff;
+	padding-top: 200px;
+	margin: 0;
+}
