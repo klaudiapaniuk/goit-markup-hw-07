@@ -152,7 +152,7 @@
 }
 
 .modal__fieldset-small:has(input:focus) .modal__icons {
-	border-color: $color-2196f3;
+	fill: $color-2196f3;
 	transition: $transition-250ms-cubic-bezier-0_4-0-0_2-1;
 }
 
@@ -167,7 +167,7 @@
 }
 
 .modal__fieldset-small:has(input:hover) .modal__icons {
-	border-color: $color-2196f3;
+	fill: $color-2196f3;
 	transition: $transition-250ms-cubic-bezier-0_4-0-0_2-1;
 }
 

@@ -1,50 +1,49 @@
-:root {
-	$color-757575: #757575;
-	$color-e5e5e5: #e5e5e5;
-	$color-2f303a: #2f303a;
-	$color-2196f3: #2196f3;
-	$color-ffffff: #ffffff;
-	$color-fff: #fff;
-	$color-212121: #212121;
-	$color-f5f4fa: #f5f4fa;
-	$color-ececec: #ececec;
-	$color-000000: #000000;
-	$color-afb1b8: #afb1b8;
-	$color-eeeeee: #eeeeee;
+$color-757575: #757575;
+$color-e5e5e5: #e5e5e5;
+$color-2f303a: #2f303a;
+$color-2196f3: #2196f3;
+$color-ffffff: #ffffff;
+$color-fff: #fff;
+$color-212121: #212121;
+$color-f5f4fa: #f5f4fa;
+$color-ececec: #ececec;
+$color-000000: #000000;
+$color-afb1b8: #afb1b8;
+$color-eeeeee: #eeeeee;
 
-	$color-rgba-255-255-255-0_6: rgba(255, 255, 255, 0.6);
-	$color-rgba-255-255-255-0_3: rgba(255, 255, 255, 0.3);
-	$color-rgba-255-255-255-0_1: rgba(255, 255, 255, 0.1);
-	$color-rgba-0-0-0-0_2: rgba(0 0 0 / 0.2);
-	$color-rgba-0-0-0-0_1: rgba(0, 0, 0, 0.1);
-	$color-rgba-33-33-33-0_2: rgba(33, 33, 33, 0.2);
-	$color-rgba-117-117-117-0_5: rgba(117, 117, 117, 0.5);
-	$color-rgba-33-150-243-0_9: rgba(33, 150, 243, 0.9);
+$color-rgba-255-255-255-0_6: rgba(255, 255, 255, 0.6);
+$color-rgba-255-255-255-0_3: rgba(255, 255, 255, 0.3);
+$color-rgba-255-255-255-0_1: rgba(255, 255, 255, 0.1);
+$color-rgba-0-0-0-0_2: rgba(0 0 0 / 0.2);
+$color-rgba-0-0-0-0_1: rgba(0, 0, 0, 0.1);
+$color-rgba-33-33-33-0_2: rgba(33, 33, 33, 0.2);
+$color-rgba-117-117-117-0_5: rgba(117, 117, 117, 0.5);
+$color-rgba-33-150-243-0_9: rgba(33, 150, 243, 0.9);
 
-	$transition-transform-1s: transform 1s;
-	$transition-250ms-cubic-bezier-0_4-0-0_2-1: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$transition-transform-1s: transform 1s;
+$transition-250ms-cubic-bezier-0_4-0-0_2-1: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-	$transform-translateY-100: translateY(100%);
-	$transform-translate-50-50: translate(-50%, -50%);
-	$transform-translateY-0: translateY(0);
+$transform-translateY100: translateY(100%);
+$transform-translateY-100: translateY(-100%);
+$transform-translate-50-50: translate(-50%, -50%);
+$transform-translateY-0: translateY(0);
 
-	$bg-image-linear-gradient-main: linear-gradient(
-		rgba(47, 48, 58, 0.4),
-		rgba(47, 48, 58, 0.4)
-	);
-	$bg-image-fields-info: linear-gradient(
-		rgba(47, 48, 58, 0.8),
-		rgba(47, 48, 58, 0.8)
-	);
+$bg-image-linear-gradient-main: linear-gradient(
+	rgba(47, 48, 58, 0.4),
+	rgba(47, 48, 58, 0.4)
+);
+$bg-image-fields-info: linear-gradient(
+	rgba(47, 48, 58, 0.8),
+	rgba(47, 48, 58, 0.8)
+);
 
-	$box-shadow-main-button: 0px 4px 4px rgba(0, 0, 0, 0.15);
-	$box-shadow-people-cards-and_modal: 0px 1px 3px rgba(0, 0, 0, 0.12),
-		0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-	$box-shadow-newlsetter__btn: 0px 4px 4px rgba(0, 0, 0, 0.15);
-	$box-shadow-portfolio-button: 0px 3px 1px rgba(0, 0, 0, 0.1),
-		0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-	$box-shadow-portfolio-boxgrid: 0px 1px 1px rgba(0, 0, 0, 0.12),
-		0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+$box-shadow-main-button: 0px 4px 4px rgba(0, 0, 0, 0.15);
+$box-shadow-people-cards-and_modal: 0px 1px 3px rgba(0, 0, 0, 0.12),
+	0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+$box-shadow-newlsetter__btn: 0px 4px 4px rgba(0, 0, 0, 0.15);
+$box-shadow-portfolio-button: 0px 3px 1px rgba(0, 0, 0, 0.1),
+	0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+$box-shadow-portfolio-boxgrid: 0px 1px 1px rgba(0, 0, 0, 0.12),
+	0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 
-	$filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-}
+$filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
